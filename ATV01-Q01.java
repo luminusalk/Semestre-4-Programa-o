@@ -7,21 +7,22 @@
 
 import java.util.Scanner;
 
-public class DolartoReal {
+public class main {
     public static void main(String[] args) {
      
-      Double cotacao, dolar, real;
+        Scanner ler = new Scanner(System.in);
+        
+        Double cotacao, dolar, real;
       
-      Scanner ler = new Scanner(System.in);
+        System.out.println("Digite o valor da cotação:");
+        
+        cotacao = ler.nextDouble();
       
-      System.out.println("Digite o valor da cotação:");
-      cotacao = ler.nextDouble();
-      
-      if (cotacao <= 0)
-      {
+        if (cotacao <= 0)
+        {
           System.out.println("Digite um valor de cotação maior que zero e tente novamente!");
           return;
-      }
+        }
         
       System.out.println("Digite a quantidade de dólar que você considerando também o valor em centavos:");
       dolar = ler.nextDouble();
