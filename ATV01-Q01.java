@@ -14,19 +14,29 @@ public class DolartoReal {
       
       Scanner ler = new Scanner(System.in);
       
-      System.out.println("Digite o valor da cotação");
+      System.out.println("Digite o valor da cotação:");
       cotacao = ler.nextDouble();
       
       if (cotacao <= 0)
       {
-          System.out.println("Digire um valor maior que zero e tente novamente!");
+          System.out.println("Digite um valor de cotação maior que zero e tente novamente!");
           return;
       }
-      
-      System.out.println("name:"+name);
-      
         
+      System.out.println("Digite a quantidade de dólar que você considerando também o valor em centavos:");
+      dolar = ler.nextDouble();
         
+      if (dolar <= 0)
+      {
+          System.out.println("Digite um valor em dólar maior que zero e tente novamente!");
+          return;
+      }
+        
+      //Efetua a multiplicação da quantidade de dólar pela cotação.
+      real = dolar*cotacao;
+      
+      System.out.printf("Você possui %.2f R$!!\n", real);
+      return;
     }
 }
 
