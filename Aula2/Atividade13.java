@@ -1,11 +1,11 @@
 /*
  *
  * @author Pedro Henrique Torres de Alencar
- * Atividade 13 de Programas e Soluções Computacionais
+ * Atividade 14 de Programas e Soluções Computacionais
  */
 import javax.swing.JOptionPane;
 
-public class atividade13 {
+public class atividade14 {
     public static void main(String[] args){
         double nota1, nota2, nota3, media;
         double pesoTL = 2.00, pesoAS = 3.00, pesoEF = 5.00;
@@ -32,9 +32,9 @@ public class atividade13 {
         }
         
         //Atribui o peso as notas de cada atividade
-        nota1 = ((nota1/100)*pesoTL);
-        nota2 = ((nota2/100)*pesoAS);
-        nota3 = ((nota3/100)*pesoEF);
+        nota1 = ((nota1/10)*pesoTL);
+        nota2 = ((nota2/10)*pesoAS);
+        nota3 = ((nota3/10)*pesoEF);
         
         //Soma os pesos para calcular a média final
         media = nota1+nota2+nota3;
