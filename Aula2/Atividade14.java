@@ -2,10 +2,11 @@
  *
  * @author Pedro Henrique Torres de Alencar
  * Atividade 14 de Programas e Soluções Computacionais
+ * Exibir o número maior
  */
 import javax.swing.JOptionPane;
 
-public class atividade14 {
+public class Atividade14 {
     public static void main(String[] args){
         int num1, num2, numfinal;
         
@@ -18,7 +19,7 @@ public class atividade14 {
         num2 = Integer.parseInt(JOptionPane.showInputDialog(null,"Insira o 2º número:"));
         
         //Verifica se o usuário digitou os valores corretamente para evitar estouros ou média negativa.
-        if(num1 < 0 || num1 < 0 || num1 > 100 || num2 > 100)
+        if(num1 < 0 || num2 < 0 || num1 > 100 || num2 > 100)
         {
             JOptionPane.showMessageDialog(null,"Você digitou um número inválido, tente novamente!");
             return;
