@@ -22,12 +22,12 @@ public class atividade13 {
         //Verifica se o usuário digitou as notas corretamente para evitar estouros ou média negativa.
         if(nota1 < 0 || nota2 < 0 || nota3 < 0)
         {
-            JOptionPane.showMessageDialog(null,"Você digitou uma das médias abaixo de 0, tente novamente!");
+            JOptionPane.showMessageDialog(null,"Você digitou uma das notas abaixo de 0, tente novamente!");
             return;
         }
         else  if(nota1 > 100 || nota2 > 100 || nota3 > 100)
         {
-            JOptionPane.showMessageDialog(null,"Você digitou uma das médias acima de 100, tente novamente!");
+            JOptionPane.showMessageDialog(null,"Você digitou uma das notas acima de 100, tente novamente!");
             return;
         }
         
