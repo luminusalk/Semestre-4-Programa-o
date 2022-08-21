@@ -7,8 +7,8 @@ import javax.swing.JOptionPane;
 
 public class atividade13 {
     public static void main(String[] args){
-        double nota1, nota2, nota3, media;
-        double pesoTL = 2.00, pesoAS = 3.00, pesoEF = 5.00;
+        int nota1, nota2, nota3;
+        double pesoTL = 2.00, pesoAS = 3.00, pesoEF = 5.00, media = 0;
         
         //Exibe as mensagens iniciais com instruções
         JOptionPane.showMessageDialog(null,"Bem vindo a calculadora da média de sua nota!");
