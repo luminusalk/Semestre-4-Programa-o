@@ -1,11 +1,11 @@
 /*
  *
  * @author Pedro Henrique Torres de Alencar
- * Atividade 14 de Programas e Soluções Computacionais
+ * Atividade 13 de Programas e Soluções Computacionais
  */
 import javax.swing.JOptionPane;
 
-public class atividade14 {
+public class atividade13 {
     public static void main(String[] args){
         double nota1, nota2, nota3, media;
         double pesoTL = 2.00, pesoAS = 3.00, pesoEF = 5.00;
