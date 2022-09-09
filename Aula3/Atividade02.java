@@ -2,11 +2,11 @@
  *
  * @author Pedro Henrique Torres de Alencar
  * Atividade 2 - Aula 3
- * Verificar 15 entradas de altura e informar a menor e a maior
+ * Verificar x entradas de alturas e informar a menor e a maior do grupo
  */
 import javax.swing.JOptionPane;
 
-public class Atividade_Desafio {
+public class Atividade02 {
     public static void main(String args[]) {
         int qnt, i = 0;
         double x = 0,y = 0,z = 0;
