@@ -34,9 +34,9 @@ public class Atividade04 {
                         for(j = 0; j < 10; j++)
                         {
                             if(quartos[i][j] == 0)
-                                System.out.println("Andar: "+(i+1)+"º, Quarto Nº: "+(j+1)+" está desocupado.");
+                                System.out.println("Andar: "+i+"º, Quarto Nº: "+j+" está desocupado.");
                             else
-                                System.out.println("Andar: "+(i+1)+"º, Quarto Nº: "+(j+1)+" está ocupado.");
+                                System.out.println("Andar: "+i+"º, Quarto Nº: "+j+" está ocupado.");
                         }
                     }
                     break;
